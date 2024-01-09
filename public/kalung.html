@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="bg-gray-300 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <a href="index.html"
+            ><img src="image/logo.png" alt="Barang" class="h-8"
+          /></a>
+        </div>
+
+        <div class="lg:hidden">
+          <button
+            id="burger-menu"
+            class="text-black focus:outline-none"
+            title="toggle"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="hidden lg:flex items-center space-x-4">
+          <a href="cincin.html" class="text-black">Cincin</a>
+          <a href="kalung.html" class="text-black">Kalung</a>
+          <a href="gelang.html" class="text-black">Gelang</a>
+        </div>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="hidden lg:hidden bg-gray-300 text-black p-4">
+      <!-- Mobile Menu Content Goes Here -->
+      <!-- You can add links or other content for the mobile menu -->
+      <a href="cincin.html" class="block py-2">Cincin</a>
+      <a href="kalung.html" class="block py-2">Kalung</a>
+      <a href="gelang.html" class="block py-2">Gelang</a>
+    </div>
+
+    <section class="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
+      <section
+        class="p-5 md:p-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 items-start"
+      >
+        <section
+          class="p-5 py-10 bg-red-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer"
+        >
+          <img src="./image/product/kalung1.jpeg" alt="" />
+          <div class="space-x-1 flex justify-center mt-10"></div>
+          <h1 class="text-3xl my-5">Pearl Trasher</h1>
+          <p class="mb-5">
+            Kalung mutiara yang elegan bertemu dengan liontin Trasher yang
+            memberikan sentuhan urban kontras, menciptakan gabungan antara
+            keanggunan klasik dan keberanian gaya modern.
+          </p>
+          <h2 class="font-semibold mb-5">Rp.25.500</h2>
+          <button
+            id="tombolCheckout"
+            class="p-2 px-6 bg-red-500 text-white rounded-md hover:bg-red-600"
+          >
+            Checkout
+          </button>
+        </section>
+
+        <section
+          class="p-5 py-10 bg-red-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer"
+        >
+          <img src="./image/product/kalung2.jpeg" alt="" />
+          <div class="space-x-1 flex justify-center mt-10"></div>
+          <h1 class="text-3xl my-5">Metalic gray</h1>
+          <p class="mb-5">
+            Dengan sentuhan metalik yang mengilap, kalung ini tidak hanya
+            menjadi perhiasan pelengkap, tetapi juga menyampaikan pernyataan
+            gaya yang kuat. Jadikan kalung Metalic Gray sebagai bagian dari
+            koleksi perhiasan Anda dan tambahkan sentuhan kemewahan pada
+            penampilan sehari-hari Anda.
+          </p>
+          <h2 class="font-semibold mb-5">Rp.25.500</h2>
+          <button
+            id="tombolCheckout2"
+            class="p-2 px-6 bg-red-500 text-white rounded-md hover:bg-red-600"
+          >
+            Checkout
+          </button>
+        </section>
+
+        <section
+          class="p-5 py-10 bg-red-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer"
+        >
+          <img src="./image/product/kalung3.jpeg" alt="" />
+          <div class="space-x-1 flex justify-center mt-10"></div>
+          <h1 class="text-3xl my-5">Abstract Plushy Variative</h1>
+          <p class="mb-5">
+            Abstract Plushy Variative Kalung adalah perhiasan elegan yang
+            dirancang untuk menambahkan sentuhan artistik dan gaya ke penampilan
+            Anda. Dengan desain abstrak yang unik dan nuansa yang lembut, kalung
+            ini memberikan kesan modern dan mewah.
+          </p>
+          <h2 class="font-semibold mb-5">Rp.25.500</h2>
+          <button
+            id="tombolCheckout3"
+            class="p-2 px-6 bg-red-500 text-white rounded-md hover:bg-red-600"
+          >
+            Checkout
+          </button>
+        </section>
+
+        <section
+          class="p-5 py-10 bg-red-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer"
+        >
+          <img src="./image/product/kalung4.jpeg" alt="" />
+          <div class="space-x-1 flex justify-center mt-10"></div>
+          <h1 class="text-3xl my-5">Oceaned Plushy</h1>
+          <p class="mb-5">
+            Kalung ini tidak hanya menjadi aksesoris, tetapi juga pernyataan
+            gaya. Dipenuhi dengan sentuhan keanggunan, Oceaned Plushy akan
+            menambahkan sentuhan elegan pada setiap penampilan Anda.
+          </p>
+          <h2 class="font-semibold mb-5">Rp.25.500</h2>
+          <button
+            id="tombolCheckout4"
+            class="p-2 px-6 bg-red-500 text-white rounded-md hover:bg-red-600"
+          >
+            Checkout
+          </button>
+        </section>
+      </section>
+    </section>
+
+    <footer class="fixed bottom-0 w-full bg-gray-300 p-4">
+      <div class="container mx-auto text-center">
+        <p class="text-gray-600 font-bold">
+          All rights reserved by Barangrampasan® 2024
+        </p>
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="../src/js/kalung.js"></script>
+  </body>
+</html>
